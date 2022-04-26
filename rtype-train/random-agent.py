@@ -1,5 +1,3 @@
-
-
 import retro
 import os
 import matplotlib.pyplot as plt
@@ -37,10 +35,9 @@ env.close()
 print(rews)
 
 # Plot obs
-plt.imshow(obs[:,:,0], cmap='gray')
-plt.imshow(obs[:,:,1], cmap='gray')
-plt.imshow(obs[:,:,2], cmap='gray')
-
+a = plt.imshow(obs[:,:,0], cmap='gray')
+b = plt.imshow(obs[:,:,1], cmap='gray')
+c = plt.imshow(obs[:,:,2], cmap='gray')
 
 # Loop...
 # while True:
