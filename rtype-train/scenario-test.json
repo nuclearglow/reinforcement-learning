@@ -1,0 +1,23 @@
+{
+  "crop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "done": {
+    "variables": {
+      "score": {
+        "op": "greater-than",
+        "reference": 1000000
+      }
+    }
+  },
+  "reward": {
+    "variables": {
+      "score": {
+        "reward": 5.0
+      }
+    }
+  }
+}
